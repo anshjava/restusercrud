@@ -22,7 +22,7 @@ class RestusercrudApplicationTests {
 
     @Test
     void crudTest() {
-        User user = new User(0L,"Larry","TestLastName", LocalDate.now());
+        User user = new User(0L,"Larry from","TestLastName", LocalDate.now());
         User savedUser = userService.saveUser(user);
         Assert.isTrue(user.getBirthdate().equals(savedUser.getBirthdate()), "Дни рождения не совпадают");
         User loadedUser = userService.findById(savedUser.getId());
