@@ -11,3 +11,5 @@ INSERT INTO users (firstname,lastname,birthdate) VALUES
 ('Anton','Gorobec','1978-02-01'),
 ('Nadezhda','Frolova','1985-03-28'),
 ('Svetlana','Popova','1980-05-10');
+
+# comment
